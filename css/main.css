@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: tomato;
+}
+
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+
+}
+
+.navbar ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.lang{
+    width: 20px;
+}
+
+.navbar li{
+    color: white;
+    font-weight: bold;
+}
+
+.icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
+
+.user-li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
